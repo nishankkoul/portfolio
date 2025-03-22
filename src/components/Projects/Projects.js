@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import celestia from "../../Assets/Projects/celestia-1.jpeg";
+import ollama from "../../Assets/Projects/ollama-2.jpeg";
+import game2048 from "../../Assets/Projects/2048-game-3.png";
+import jenkins from "../../Assets/Projects/jenkins-cicd-4.png";
+import github from "../../Assets/Projects/github-5.jpeg";
+import lambda from "../../Assets/Projects/lambda-6.png";
 
 function Projects() {
   return (
@@ -23,68 +23,73 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={celestia}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Celestia Validator Node Deployment"
+              description="Celestia is a modular blockchain that enhances scalability by separating consensus and data availability. Deploying a validator node on the Mocha-4 testnet can be complex, but Ansible automation simplifies the process. This project streamlines deployment, security, and monitoring—ensuring a robust, scalable, and efficient validator setup."
+              ghLink="https://github.com/nishankkoul/celestia-validator-deployment"
+              demoLink="https://nishankkoul.hashnode.dev/celestia-validator-node-deployment-on-mocha-4-testnet"
+              demoText="Blog"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ollama}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Scalable LLM Inference Service with Ollama"
+              description="Designed and deployed a scalable LLM inference service, enabling seamless interaction with a language model through a containerized API. Ensured high availability and optimized performance by automating deployment, monitoring, and load testing. "
+              ghLink="https://github.com/nishankkoul/Ollama-App"
+              demoLink="https://nishankkoul.hashnode.dev/building-a-scalable-llm-inference-service-with-ollama"
+              demoText="Blog"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={game2048}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="2048 Game Deployment with EKS"
+              description="Deploying the 2048 game on AWS Elastic Kubernetes Service (EKS) ensures scalability, reliability, and seamless management. This project automates the deployment process, leveraging Kubernetes for efficient container orchestration. It showcases cloud-native best practices, ensuring smooth performance and effortless scaling."
+              ghLink="https://github.com/nishankkoul/2048-Game-EKS"
+              demoLink="https://nishankkoul.hashnode.dev/deploying-a-2048-game-app-with-aws-eks"
+              demoText="Blog"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={jenkins}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Jenkins End-To-End CI/CD using ArgoCD"
+              description="This project implements a CI/CD pipeline for a Java application, ensuring seamless automation from code commits to deployment. Jenkins, Maven, SonarQube, and Docker streamline code building, testing, and security checks, while ArgoCD automates Kubernetes deployment. The entire workflow enhances code quality, security, and continuous delivery, ensuring a robust and scalable application lifecycle."
+              ghLink="https://github.com/nishankkoul/Jenkins-CICD"
+              demoLink="https://nishankkoul.hashnode.dev/jenkins-end-to-end-cicd-project-using-argocd"
+              demoText="Blog"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={github}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Automating GitHub Repository Access with Bash and API Integration"
+              description="Managing GitHub repository access can be challenging with multiple collaborators. This project automates access management using a Bash script integrated with the GitHub API, making it easy to list users with repository access. It ensures secure handling of credentials while streamlining repository access control."
+              ghLink="https://github.com/nishankkoul/Access-Management-using-GitHub-API"
+              demoLink="https://nishankkoul.hashnode.dev/automating-github-repository-access-with-bash-and-api-integration"
+              demoText="Blog"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={lambda}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Cloud Cost Optimization using AWS Lambda"
+              description="Optimizing cloud costs is essential for maintaining an efficient infrastructure. This project automates EBS snapshot management using an AWS Lambda function, identifying and deleting stale snapshots to reduce unnecessary storage costs. Leveraging Boto3, it ensures seamless integration with AWS for cost-efficient cloud resource management."
+              ghLink="https://github.com/nishankkoul/AWS-Lambda-Cost-Optimization"
+              demoLink="https://nishankkoul.hashnode.dev/cloud-cost-optimization-using-aws-lambda"
+              demoText="Blog"
             />
           </Col>
         </Row>

@@ -5,7 +5,6 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,36 +18,43 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with DevOps and Cloud, and I've definitely learned something along the way… I think? 🤔🚀
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I speak fluently in the language of 
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> automation, scalability, and reliability</b>
               </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+              —whether it's orchestrating containers with 
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple"> Kubernetes</b>
+              </i>
+              , managing pipelines in 
+              <i>
+                <b className="purple"> Jenkins</b>
+              </i>
+              , or deploying infrastructure on 
+              <i>
+                <b className="purple"> AWS and GCP</b>
+              </i>
+              .
+              <br />
+              <br />
+              My interests? Building highly scalable &nbsp;
+              <i>
+                <b className="purple">cloud-native solutions</b>, 
+                automating everything (because why do it twice?), 
+                and diving into the world of{" "}
                 <b className="purple">
-                  Blockchain.
+                  SRE and Infrastructure as Code
                 </b>
               </i>
+              .
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Let's keep the servers running, the logs clean, and the latency low! 
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> 🛠️☁️🔥</b>
               </i>
             </p>
           </Col>
@@ -67,7 +73,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/nishankkoul"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +83,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://x.com/Nishank_Koul"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,22 +93,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/nishank-koul/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
