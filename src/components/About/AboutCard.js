@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Nishank Koul </span>
             from <span className="purple"> New Delhi, India.</span>
             <br />
-            I am currently employed as a DevOps Engineer at Stringify AI.
+            I am currently employed as a Founding DevOps Engineer at Vaani Research Labs.
             <br />
             I have completed Bachelor of Technology (Computer Science) at <span className="purple">PES University, Bengaluru, India</span>.
             <br />
