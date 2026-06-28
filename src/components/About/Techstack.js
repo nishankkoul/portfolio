@@ -9,8 +9,6 @@ import {
   DiTerminal,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
   SiGooglecloud,
   SiKubernetes,
   SiJenkins,
